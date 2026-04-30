@@ -1,0 +1,179 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2 {
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+    color: rgb(170, 62, 62);
+}
+
+label {
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(170, 62, 62);
+}
+
+.conteiner {
+    display: flex;
+}
+
+.item {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    margin: 5px;
+    position: relative;
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: rgb(170, 62, 62);
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    font-size: 0;
+}
+
+.par {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: rgb(134, 29, 29);
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    font-size: 0;
+}
+
+.price {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: rgb(170, 62, 62);
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    font-size: 0;
+}
+
+.selected {
+    flex: 4;
+}
+
+.selected h3 {
+    font-size: 40px;
+    transition: all 1s ease-in;
+}
+
+.selected .par {
+    font-size: 20px;
+    transition: all 1s ease-in;
+}
+
+.selected .price {
+    font-size: 35px;
+    transition: all 1s ease-in;
+}
+
+.text-input {
+    background-color: blanchedalmond;
+    border: none;
+    padding: 12px 20px;
+}
+
+.btn {
+    background-color: rgb(170, 62, 62);
+    font-family: 'Dancing Script', cursive;
+    color: blanchedalmond;
+    font-size: 30px;
+    flex: 1;
+
+}
+.one {
+    background-image: url(1.jpg);
+}
+
+.two {
+    background-image: url(2.jpg);
+}
+
+.three {
+    background-image: url(3.jpg);
+}
+
+.four {
+    background-image: url(4.jpg);
+}
+
+.five {
+    background-image: url(5.jpg);
+}
+
+.six {
+    background-image: url(6.jpg);
+}
+
+.seven {
+    background-image: url(7.jpg);
+}
+
+.soonOpen {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.restaurant {
+    background-color: rgb(170, 62, 62);
+    color: blanchedalmond;
+    height: 300px;
+    width: 200px;
+    margin: 50px;
+    border: 3px solid black;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h5 {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.days, .hours, .minutes, .seconds {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.red {
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    color: darkgreen;
+}
+
+button {
+    background-color: blanchedalmond;
+    border: none;
+    margin-left: 20px;
+}
+
+@media all and (max-width: 540px) {
+    h1, h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    h3, .par, .price {
+        left: 5px;
+    }
+}

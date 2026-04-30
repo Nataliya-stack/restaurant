@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <audio id="myAudio" src="sound.mp3" loop="loop" autoplay="allowed"></audio>
+
+    <div class="header">
+        <h1>Gourmet restaurant</h1>
+    </div>
+
+    <div class="conteiner">
+        <div class="item one selected">
+            <h3>Asphodel</h3>
+            <p class="par">Crispy: firm texture, often recognizable by a sharp, audible noise when biting.</p>
+            <p class="price">80 $</p>
+        </div>
+
+        <div class="item two">
+            <h3>Dawn</h3>
+            <p class="par">Gentle: light soft texture that instantly loses its shape when pressed.</p>
+            <p class="price">95 $</p>
+        </div>
+
+        <div class="item three">
+            <h3>Camellia</h3>
+            <p class="par">Juicy: delicate texture, characterized by the presence of a large amount of liquid.</p>
+            <p class="price">78 $</p>
+        </div>
+
+        <div class="item four">
+            <h3>Bobolink</h3>
+            <p class="par">Velvety: smooth and rich texture.</p>
+            <p class="price">103 $</p>
+        </div>
+
+        <div class="item five">
+            <h3>Luminous</h3>
+            <p class="par">Silky: fine, soft texture that feels like something smooth in the mouth.</p>
+            <p class="price">97 $</p>
+        </div>
+
+        <div class="item six">
+            <h3>Oriole</h3>
+            <p class="par">Sparkling: texture obtained by the presence of small bubbles, applied to carbonated drinks.</p>
+            <p class="price">88 $</p>
+        </div>
+
+        <div class="item seven">
+            <h3>Gossamer</h3>
+            <p class="par">Creamy: soft, thick texture derived from the content of dairy products.</p>
+            <p class="price">83 $</p>
+        </div>
+
+    </div>
+
+    <div class="header">
+        <h2>Left before the opening of the restaurant.....</h2>
+        <button id="myButton"><img src="2.png" alt="Play Button"></button>
+    </div>
+
+    <div class="soonOpen">
+
+            <div class="restaurant">
+                <div class="block">
+                    <h4 class="days"></h4>
+                    <h5>DAYS</h5>
+                </div>
+            </div>
+
+            <div class="restaurant">
+                <div class="block">
+                    <h4 class="hours"></h4>
+                    <h5>HOURS</h5>
+                </div>
+            </div>
+
+            <div class="restaurant">
+                <div class="block">
+                    <h4 class="minutes"></h4>
+                    <h5>MINUTES</h5>
+                </div>
+            </div>
+
+            <div class="restaurant">
+                <div class="block">
+                    <h4 class="seconds"></h4>
+                    <h5>SECONDS</h5>
+                </div>
+            </div>
+    </div>
+    
+    <form
+    action="https://formspree.io/f/xrgvovrq"
+    method="POST"> 
+
+    <div class="header">
+        <label>
+            Your email:
+            <input class="text-input" type="email" name="email" placeholder="Your email ..." required="">
+        </label>
+    </div>
+
+    <div class="header">
+        <label>
+            Your message:
+            <textarea class="text-input" name="message" placeholder="Type your message ..." required=""></textarea>
+        </label>
+    </div>
+
+    <!-- your other form fields go here -->
+
+    <br>
+
+    <div class="header">
+        <button class="btn" type="submit">Send</button>
+    </div>
+</form>
+
+    <script src="index.js"></script>
+</body>
+</html>
